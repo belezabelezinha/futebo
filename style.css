@@ -1,0 +1,88 @@
+root{
+    margin: 0;
+    --bg-color: #f0f0f0;
+    --text-color: #222;
+    --card-bag: #fff;
+}
+ 
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #eee;
+    --card-bg: #1e1e1e;
+}
+ 
+body{
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+
+
+
+
+
+
+.banner{
+    background-image: url(img/campo3.img.jpg);
+    height: 100vh;
+    right: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.cabecalho{
+    text-align: center;
+    font-style: unset;
+    color: azure;
+    font-size: 40px;
+    padding-right: 85%;
+    padding-left: 0px;
+}
+
+.melhores{
+    background-color: rgba(102, 120, 143, 0.839);
+}
+
+.jogadores{
+    background-color: rgb(153, 222, 169,0.839);
+}
+.imagemjogadores img{
+    height: 500px;
+    width: 600px;
+    font-family: unset;
+    
+}
+
+.tabela, th , td{
+    justify-items: center;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid rgb(226, 216, 216);
+    border-collapse: collapse;
+
+}
+
+.estadio{
+    justify-items: center;
+}
+
+.mapa {
+    justify-items: center;
+
+}
+.video{
+    justify-items:  center;
+}
+
+.link{
+    justify-items: center;
+}
+
+.formulario{
+    justify-items: center;
+    font-size: 30px;
+    background-color: rgb(67, 80, 89);
+    
+
+}
